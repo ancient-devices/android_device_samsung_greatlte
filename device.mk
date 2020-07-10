@@ -20,3 +20,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 $(call inherit-product, device/samsung/universal8895-common/device-common.mk)
 
 $(call inherit-product-if-exists, vendor/samsung/greatlte/greatlte-vendor.mk)
+
+# Bootanimation Resolution
+TARGET_SCREEN_HEIGHT := 2960
+TARGET_SCREEN_WIDTH := 1440
