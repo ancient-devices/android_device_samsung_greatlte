@@ -24,3 +24,7 @@ $(call inherit-product-if-exists, vendor/samsung/greatlte/greatlte-vendor.mk)
 # Bootanimation Resolution
 TARGET_SCREEN_HEIGHT := 2960
 TARGET_SCREEN_WIDTH := 1440
+
+# AncientParts
+PRODUCT_PACKAGES += \
+    AncientParts
